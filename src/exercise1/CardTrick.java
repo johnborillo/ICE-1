@@ -26,7 +26,8 @@ public class CardTrick {
             card.setSuit(card.SUITS[(int)(Math.random() * 4) + 0]);
             // Hint: You can use Random -> random.nextInt(n) to get a random number between 0 and n-1 (inclusive)
             //       Don't worry about duplicates at this point
-            System.out.println("Suit: " + card.getSuit() + ", Value: " + card.getValue());
+            // FOLLOWING CODE FOR DEBUGGING:
+            // System.out.println("Suit: " + card.getSuit() + ", Value: " + card.getValue());
         }
         
         Scanner user = new Scanner(System.in);
@@ -51,7 +52,6 @@ public class CardTrick {
             
             for(int i = 0; i < hand.length; i++){
                 if (hand[i].getValue() == valueGuess && hand[i].getSuit().toLowerCase().equals(suitGuess)){
-                    System.out.println("Congratulations, you guessed right!");
                     printInfo();
                     win = true;
                 }
