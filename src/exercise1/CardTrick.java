@@ -85,16 +85,16 @@ public class CardTrick {
         System.out.println();
         
         System.out.println("My career ambitions:");
-        System.out.println("-- Be more active on LinkedIn");
+        System.out.println("-- Make more connections");
         System.out.println("-- Pursue a career as a fullstack developer");
         System.out.println("-- Participate in more hackathons");
 	System.out.println();	
 
         System.out.println("My hobbies:");
-        System.out.println("-- Photography");
-        System.out.println("-- Play instruments");
+        System.out.println("-- Hanging out with friends");
         System.out.println("-- Video games");
-        System.out.println("-- Food");
+        System.out.println("-- Play instruments");
+        System.out.println("-- Photography");
 
         System.out.println();
         
